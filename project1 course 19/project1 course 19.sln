@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project1 course 19", "project1 course 19.csproj", "{8F6C5642-10F0-40AE-AC95-0897611FB395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleBusinessLayer", "PeopleBusinessLayer\PeopleBusinessLayer.csproj", "{8A736832-0446-47AF-A547-A1040AC1FA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleDataAccessLayer", "PeopleDataAccessLayer\PeopleDataAccessLayer.csproj", "{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "People", "People", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F6C5642-10F0-40AE-AC95-0897611FB395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6C5642-10F0-40AE-AC95-0897611FB395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6C5642-10F0-40AE-AC95-0897611FB395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6C5642-10F0-40AE-AC95-0897611FB395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A736832-0446-47AF-A547-A1040AC1FA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A736832-0446-47AF-A547-A1040AC1FA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A736832-0446-47AF-A547-A1040AC1FA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A736832-0446-47AF-A547-A1040AC1FA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A736832-0446-47AF-A547-A1040AC1FA98} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E404AAF0-7DA0-4A56-A417-881D5C5A98EA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {529D4E73-CD11-4449-9ADA-12E80B909504}
+	EndGlobalSection
+EndGlobal
