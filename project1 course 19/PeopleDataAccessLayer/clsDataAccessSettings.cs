@@ -8,6 +8,6 @@ namespace PeopleDataAccessLayer
 {
     internal class clsDataAccessSettings
     {
-        public static string ConnectionString = "Server=.;Database=DVLD;User Id=sa;Password=123456;";
+        public static string ConnectionString = @"Server = .\MSSQLSERVER1; Database = DVLD; User Id = osama;Password = sa123456;";
     }
 }

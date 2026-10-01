@@ -20,3 +20,14 @@ C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug
 C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBu.0DD400AC.Up2Date
 C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.dll
 C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.pdb
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleBusinessLayer.dll.config
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleBusinessLayer.dll
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleBusinessLayer.pdb
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.dll
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.pdb
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.dll.config
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.csproj.AssemblyReference.cache
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.csproj.CoreCompileInputs.cache
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBu.0DD400AC.Up2Date
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.dll
+D:\ProjectBahaa\gethub-projects-file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.pdb
