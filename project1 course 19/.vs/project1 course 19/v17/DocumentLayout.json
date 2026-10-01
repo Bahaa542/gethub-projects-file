@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\my file\\gethub projects file\\project1 course 19\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|C:\\my file\\gethub projects file\\project1 course 19\\peopledataaccesslayer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|c:\\my file\\gethub projects file\\project1 course 19\\peopledataaccesslayer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|solutionrelative:peopledataaccesslayer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,11 +19,11 @@
       "RelativeMoniker": "D:0:0:{8F6C5642-10F0-40AE-AC95-0897611FB395}|project1 course 19.csproj|solutionrelative:addnewpersonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A736832-0446-47AF-A547-A1040AC1FA98}|PeopleBusinessLayer\\PeopleBusinessLayer.csproj|c:\\my file\\gethub projects file\\project1 course 19\\peoplebusinesslayer\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A736832-0446-47AF-A547-A1040AC1FA98}|PeopleBusinessLayer\\PeopleBusinessLayer.csproj|C:\\my file\\gethub projects file\\project1 course 19\\peoplebusinesslayer\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A736832-0446-47AF-A547-A1040AC1FA98}|PeopleBusinessLayer\\PeopleBusinessLayer.csproj|solutionrelative:peoplebusinesslayer\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|c:\\my file\\gethub projects file\\project1 course 19\\peopledataaccesslayer\\countrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|C:\\my file\\gethub projects file\\project1 course 19\\peopledataaccesslayer\\countrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|solutionrelative:peopledataaccesslayer\\countrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "RelativeToolTip": "ManagePeople.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-26T07:07:37.808Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "AddNewPersonMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-27T08:19:33.762Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "PeopleBusinessLayer\\PeopleBusinessLayer.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAEwEkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T16:39:52.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T16:39:52.827Z"
             },
             {
               "$type": "Document",
@@ -111,7 +108,7 @@
               "RelativeDocumentMoniker": "PeopleDataAccessLayer\\PeopleDataAccess.cs",
               "ToolTip": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleDataAccessLayer\\PeopleDataAccess.cs",
               "RelativeToolTip": "PeopleDataAccessLayer\\PeopleDataAccess.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAswAIBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAAwAIBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T16:40:51.791Z",
               "EditorCaption": ""
@@ -126,8 +123,7 @@
               "RelativeToolTip": "AddNewPersonMenu.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAcwGoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T08:33:16.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T08:33:16.957Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "PeopleDataAccessLayer\\CountryData.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwCYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T17:54:04.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T17:54:04.863Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "PeopleBusinessLayer\\Country.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAYwBIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T09:14:16.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T09:14:16.108Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "ManagePeople.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAYwHQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T07:14:27.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T07:14:27.181Z"
             },
             {
               "$type": "Document",
@@ -213,8 +206,7 @@
               "RelativeToolTip": "ManagePeople.Designer.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAMwHwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T08:23:05.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T08:23:05.029Z"
             }
           ]
         }
