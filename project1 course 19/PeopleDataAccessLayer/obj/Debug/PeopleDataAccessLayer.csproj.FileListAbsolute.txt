@@ -5,3 +5,10 @@ C:\my file\vs code\project1 course 19\PeopleDataAccessLayer\bin\Debug\PeopleData
 C:\my file\vs code\project1 course 19\PeopleDataAccessLayer\bin\Debug\PeopleDataAccessLayer.pdb
 C:\my file\vs code\project1 course 19\PeopleDataAccessLayer\obj\Debug\PeopleDataAccessLayer.dll
 C:\my file\vs code\project1 course 19\PeopleDataAccessLayer\obj\Debug\PeopleDataAccessLayer.pdb
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\bin\Debug\PeopleDataAccessLayer.dll.config
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\bin\Debug\PeopleDataAccessLayer.dll
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\bin\Debug\PeopleDataAccessLayer.pdb
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\obj\Debug\PeopleDataAccessLayer.csproj.AssemblyReference.cache
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\obj\Debug\PeopleDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\obj\Debug\PeopleDataAccessLayer.dll
+C:\my file\gethub projects file\project1 course 19\PeopleDataAccessLayer\obj\Debug\PeopleDataAccessLayer.pdb

@@ -37,7 +37,7 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblGendor = new System.Windows.Forms.Label();
             this.lblNationalNo = new System.Windows.Forms.Label();
-            this.textBoxName = new System.Windows.Forms.TextBox();
+            this.textBoxFirstName = new System.Windows.Forms.TextBox();
             this.textBoxLastName = new System.Windows.Forms.TextBox();
             this.textBoxSecondName = new System.Windows.Forms.TextBox();
             this.textBoxNationalNo = new System.Windows.Forms.TextBox();
@@ -45,9 +45,9 @@
             this.lblDateOfBirth = new System.Windows.Forms.Label();
             this.lblPhone = new System.Windows.Forms.Label();
             this.lblCountry = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.BirthBox = new System.Windows.Forms.DateTimePicker();
             this.txtboxPhone = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.groupBoxGendor = new System.Windows.Forms.GroupBox();
             this.rbMale = new System.Windows.Forms.RadioButton();
             this.rbFemale = new System.Windows.Forms.RadioButton();
@@ -59,6 +59,8 @@
             this.lblFirstName = new System.Windows.Forms.Label();
             this.lblSecondName = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
+            this.textBoxthirdName = new System.Windows.Forms.TextBox();
+            this.lblThirdName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBoxGendor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -80,7 +82,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(1, 154);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(929, 398);
@@ -163,18 +165,18 @@
             this.lblNationalNo.TabIndex = 8;
             this.lblNationalNo.Text = "National No";
             // 
-            // textBoxName
+            // textBoxFirstName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(163, 208);
-            this.textBoxName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(165, 24);
-            this.textBoxName.TabIndex = 9;
+            this.textBoxFirstName.Location = new System.Drawing.Point(163, 207);
+            this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxFirstName.Name = "textBoxFirstName";
+            this.textBoxFirstName.Size = new System.Drawing.Size(165, 24);
+            this.textBoxFirstName.TabIndex = 9;
             // 
             // textBoxLastName
             // 
-            this.textBoxLastName.Location = new System.Drawing.Point(530, 208);
-            this.textBoxLastName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxLastName.Location = new System.Drawing.Point(748, 208);
+            this.textBoxLastName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(165, 24);
             this.textBoxLastName.TabIndex = 10;
@@ -182,7 +184,7 @@
             // textBoxSecondName
             // 
             this.textBoxSecondName.Location = new System.Drawing.Point(348, 208);
-            this.textBoxSecondName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSecondName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSecondName.Name = "textBoxSecondName";
             this.textBoxSecondName.Size = new System.Drawing.Size(165, 24);
             this.textBoxSecondName.TabIndex = 11;
@@ -190,7 +192,7 @@
             // textBoxNationalNo
             // 
             this.textBoxNationalNo.Location = new System.Drawing.Point(163, 260);
-            this.textBoxNationalNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxNationalNo.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNationalNo.Name = "textBoxNationalNo";
             this.textBoxNationalNo.Size = new System.Drawing.Size(165, 24);
             this.textBoxNationalNo.TabIndex = 12;
@@ -198,7 +200,7 @@
             // txtboxEmail
             // 
             this.txtboxEmail.Location = new System.Drawing.Point(163, 362);
-            this.txtboxEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtboxEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtboxEmail.Name = "txtboxEmail";
             this.txtboxEmail.Size = new System.Drawing.Size(165, 24);
             this.txtboxEmail.TabIndex = 13;
@@ -236,39 +238,39 @@
             this.lblCountry.TabIndex = 16;
             this.lblCountry.Text = "Country";
             // 
-            // dateTimePicker1
+            // BirthBox
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(530, 261);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(165, 24);
-            this.dateTimePicker1.TabIndex = 17;
+            this.BirthBox.Location = new System.Drawing.Point(530, 261);
+            this.BirthBox.Margin = new System.Windows.Forms.Padding(4);
+            this.BirthBox.Name = "BirthBox";
+            this.BirthBox.Size = new System.Drawing.Size(165, 24);
+            this.BirthBox.TabIndex = 17;
             // 
             // txtboxPhone
             // 
             this.txtboxPhone.Location = new System.Drawing.Point(530, 314);
-            this.txtboxPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtboxPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtboxPhone.Name = "txtboxPhone";
             this.txtboxPhone.Size = new System.Drawing.Size(165, 24);
             this.txtboxPhone.TabIndex = 18;
             // 
-            // textBox1
+            // textBoxAddress
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 409);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(339, 73);
-            this.textBox1.TabIndex = 19;
+            this.textBoxAddress.Location = new System.Drawing.Point(163, 409);
+            this.textBoxAddress.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxAddress.Multiline = true;
+            this.textBoxAddress.Name = "textBoxAddress";
+            this.textBoxAddress.Size = new System.Drawing.Size(339, 73);
+            this.textBoxAddress.TabIndex = 19;
             // 
             // groupBoxGendor
             // 
             this.groupBoxGendor.Controls.Add(this.rbMale);
             this.groupBoxGendor.Controls.Add(this.rbFemale);
             this.groupBoxGendor.Location = new System.Drawing.Point(163, 309);
-            this.groupBoxGendor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxGendor.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxGendor.Name = "groupBoxGendor";
-            this.groupBoxGendor.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxGendor.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxGendor.Size = new System.Drawing.Size(166, 28);
             this.groupBoxGendor.TabIndex = 20;
             this.groupBoxGendor.TabStop = false;
@@ -277,7 +279,7 @@
             // 
             this.rbMale.AutoSize = true;
             this.rbMale.Location = new System.Drawing.Point(7, 2);
-            this.rbMale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbMale.Margin = new System.Windows.Forms.Padding(4);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(55, 21);
             this.rbMale.TabIndex = 0;
@@ -289,7 +291,7 @@
             // 
             this.rbFemale.AutoSize = true;
             this.rbFemale.Location = new System.Drawing.Point(97, 0);
-            this.rbFemale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbFemale.Margin = new System.Windows.Forms.Padding(4);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(71, 21);
             this.rbFemale.TabIndex = 1;
@@ -301,15 +303,15 @@
             // 
             this.cbCountry.FormattingEnabled = true;
             this.cbCountry.Location = new System.Drawing.Point(530, 362);
-            this.cbCountry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbCountry.Margin = new System.Windows.Forms.Padding(4);
             this.cbCountry.Name = "cbCountry";
             this.cbCountry.Size = new System.Drawing.Size(160, 24);
             this.cbCountry.TabIndex = 21;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(748, 207);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(765, 245);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(155, 181);
             this.pictureBox1.TabIndex = 22;
@@ -318,7 +320,7 @@
             // lilabSetImage
             // 
             this.lilabSetImage.AutoSize = true;
-            this.lilabSetImage.Location = new System.Drawing.Point(796, 409);
+            this.lilabSetImage.Location = new System.Drawing.Point(797, 437);
             this.lilabSetImage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lilabSetImage.Name = "lilabSetImage";
             this.lilabSetImage.Size = new System.Drawing.Size(70, 17);
@@ -329,17 +331,18 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(748, 486);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 39);
             this.btnSave.TabIndex = 24;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(590, 486);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(105, 39);
             this.btnClose.TabIndex = 25;
@@ -372,18 +375,39 @@
             // 
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            this.lblLastName.Location = new System.Drawing.Point(562, 174);
+            this.lblLastName.Location = new System.Drawing.Point(790, 174);
             this.lblLastName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(77, 17);
             this.lblLastName.TabIndex = 28;
             this.lblLastName.Text = "LastName";
             // 
+            // textBoxthirdName
+            // 
+            this.textBoxthirdName.Location = new System.Drawing.Point(546, 208);
+            this.textBoxthirdName.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxthirdName.Name = "textBoxthirdName";
+            this.textBoxthirdName.Size = new System.Drawing.Size(165, 24);
+            this.textBoxthirdName.TabIndex = 29;
+            // 
+            // lblThirdName
+            // 
+            this.lblThirdName.AutoSize = true;
+            this.lblThirdName.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.lblThirdName.Location = new System.Drawing.Point(565, 174);
+            this.lblThirdName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblThirdName.Name = "lblThirdName";
+            this.lblThirdName.Size = new System.Drawing.Size(84, 17);
+            this.lblThirdName.TabIndex = 30;
+            this.lblThirdName.Text = "ThirdName";
+            // 
             // AddNewPersonMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 554);
+            this.Controls.Add(this.lblThirdName);
+            this.Controls.Add(this.textBoxthirdName);
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.lblSecondName);
             this.Controls.Add(this.lblFirstName);
@@ -393,9 +417,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cbCountry);
             this.Controls.Add(this.groupBoxGendor);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxAddress);
             this.Controls.Add(this.txtboxPhone);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.BirthBox);
             this.Controls.Add(this.lblCountry);
             this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.lblDateOfBirth);
@@ -403,7 +427,7 @@
             this.Controls.Add(this.textBoxNationalNo);
             this.Controls.Add(this.textBoxSecondName);
             this.Controls.Add(this.textBoxLastName);
-            this.Controls.Add(this.textBoxName);
+            this.Controls.Add(this.textBoxFirstName);
             this.Controls.Add(this.lblNationalNo);
             this.Controls.Add(this.lblGendor);
             this.Controls.Add(this.lblEmail);
@@ -413,7 +437,7 @@
             this.Controls.Add(this.lblPersonID);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.AddNewTitletxt);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddNewPersonMenu";
             this.Text = "Add New Person Menu";
             this.Load += new System.EventHandler(this.AddNewPersonMenu_Load);
@@ -437,7 +461,7 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblGendor;
         private System.Windows.Forms.Label lblNationalNo;
-        private System.Windows.Forms.TextBox textBoxName;
+        private System.Windows.Forms.TextBox textBoxFirstName;
         private System.Windows.Forms.TextBox textBoxLastName;
         private System.Windows.Forms.TextBox textBoxSecondName;
         private System.Windows.Forms.TextBox textBoxNationalNo;
@@ -445,9 +469,9 @@
         private System.Windows.Forms.Label lblDateOfBirth;
         private System.Windows.Forms.Label lblPhone;
         private System.Windows.Forms.Label lblCountry;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker BirthBox;
         private System.Windows.Forms.TextBox txtboxPhone;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.GroupBox groupBoxGendor;
         private System.Windows.Forms.RadioButton rbMale;
         private System.Windows.Forms.RadioButton rbFemale;
@@ -459,5 +483,7 @@
         private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.Label lblSecondName;
         private System.Windows.Forms.Label lblLastName;
+        private System.Windows.Forms.TextBox textBoxthirdName;
+        private System.Windows.Forms.Label lblThirdName;
     }
 }

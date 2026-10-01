@@ -18,3 +18,22 @@ C:\my file\vs code\project1 course 19\bin\Debug\PeopleDataAccessLayer.pdb
 C:\my file\vs code\project1 course 19\bin\Debug\PeopleDataAccessLayer.dll.config
 C:\my file\vs code\project1 course 19\obj\Debug\project1 course 19.exe.config
 C:\my file\vs code\project1 course 19\obj\Debug\project1_course_19.AddNewPersonMenu.resources
+C:\my file\gethub projects file\project1 course 19\bin\Debug\project1 course 19.exe.config
+C:\my file\gethub projects file\project1 course 19\bin\Debug\project1 course 19.exe
+C:\my file\gethub projects file\project1 course 19\bin\Debug\project1 course 19.pdb
+C:\my file\gethub projects file\project1 course 19\bin\Debug\PeopleBusinessLayer.dll
+C:\my file\gethub projects file\project1 course 19\bin\Debug\PeopleDataAccessLayer.dll
+C:\my file\gethub projects file\project1 course 19\bin\Debug\PeopleBusinessLayer.pdb
+C:\my file\gethub projects file\project1 course 19\bin\Debug\PeopleBusinessLayer.dll.config
+C:\my file\gethub projects file\project1 course 19\bin\Debug\PeopleDataAccessLayer.pdb
+C:\my file\gethub projects file\project1 course 19\bin\Debug\PeopleDataAccessLayer.dll.config
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.csproj.AssemblyReference.cache
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1_course_19.AddNewPersonMenu.resources
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1_course_19.MainMenu.resources
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1_course_19.ManagePeople.resources
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1_course_19.Properties.Resources.resources
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.csproj.GenerateResource.cache
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.csproj.CoreCompileInputs.cache
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1.0785ABB3.Up2Date
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.exe
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.pdb

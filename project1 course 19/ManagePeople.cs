@@ -114,6 +114,8 @@ namespace project1_course_19
             AddNewPersonMenu AddNewPerson = new AddNewPersonMenu(-1);
             AddNewPerson.ShowDialog();
 
+            _RefreshContactsList();
+
         }
     }
 }

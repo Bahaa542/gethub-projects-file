@@ -9,3 +9,14 @@ C:\my file\vs code\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAc
 C:\my file\vs code\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.pdb
 C:\my file\vs code\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.dll.config
 C:\my file\vs code\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBu.0DD400AC.Up2Date
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleBusinessLayer.dll.config
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleBusinessLayer.dll
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleBusinessLayer.pdb
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.dll
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.pdb
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\bin\Debug\PeopleDataAccessLayer.dll.config
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.csproj.AssemblyReference.cache
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.csproj.CoreCompileInputs.cache
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBu.0DD400AC.Up2Date
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.dll
+C:\my file\gethub projects file\project1 course 19\PeopleBusinessLayer\obj\Debug\PeopleBusinessLayer.pdb
