@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\my file\\gethub projects file\\project1 course 19\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F6C5642-10F0-40AE-AC95-0897611FB395}|project1 course 19.csproj|C:\\my file\\gethub projects file\\project1 course 19\\addnewpersonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F6C5642-10F0-40AE-AC95-0897611FB395}|project1 course 19.csproj|solutionrelative:addnewpersonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|c:\\my file\\gethub projects file\\project1 course 19\\peopledataaccesslayer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E404AAF0-7DA0-4A56-A417-881D5C5A98EA}|PeopleDataAccessLayer\\PeopleDataAccessLayer.csproj|solutionrelative:peopledataaccesslayer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A736832-0446-47AF-A547-A1040AC1FA98}|PeopleBusinessLayer\\PeopleBusinessLayer.csproj|C:\\my file\\gethub projects file\\project1 course 19\\peoplebusinesslayer\\peoplebusinesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A736832-0446-47AF-A547-A1040AC1FA98}|PeopleBusinessLayer\\PeopleBusinessLayer.csproj|solutionrelative:peoplebusinesslayer\\peoplebusinesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C5642-10F0-40AE-AC95-0897611FB395}|project1 course 19.csproj|C:\\my file\\gethub projects file\\project1 course 19\\addnewpersonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F6C5642-10F0-40AE-AC95-0897611FB395}|project1 course 19.csproj|solutionrelative:addnewpersonmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A736832-0446-47AF-A547-A1040AC1FA98}|PeopleBusinessLayer\\PeopleBusinessLayer.csproj|C:\\my file\\gethub projects file\\project1 course 19\\peoplebusinesslayer\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AddNewPersonMenu.cs [Design]",
               "DocumentMoniker": "C:\\my file\\gethub projects file\\project1 course 19\\AddNewPersonMenu.cs",
               "RelativeDocumentMoniker": "AddNewPersonMenu.cs",
@@ -82,7 +82,8 @@
               "RelativeToolTip": "AddNewPersonMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-27T08:19:33.762Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -90,40 +91,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PeopleBusinessLayer.cs",
-              "DocumentMoniker": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleBusinessLayer\\PeopleBusinessLayer.cs",
-              "RelativeDocumentMoniker": "PeopleBusinessLayer\\PeopleBusinessLayer.cs",
-              "ToolTip": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleBusinessLayer\\PeopleBusinessLayer.cs",
-              "RelativeToolTip": "PeopleBusinessLayer\\PeopleBusinessLayer.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAEwEkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T16:39:52.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PeopleDataAccess.cs",
               "DocumentMoniker": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleDataAccessLayer\\PeopleDataAccess.cs",
               "RelativeDocumentMoniker": "PeopleDataAccessLayer\\PeopleDataAccess.cs",
               "ToolTip": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleDataAccessLayer\\PeopleDataAccess.cs",
               "RelativeToolTip": "PeopleDataAccessLayer\\PeopleDataAccess.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAAwAIBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAOMAAAAAAAAAAADgv+0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T16:40:51.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "PeopleBusinessLayer.cs",
+              "DocumentMoniker": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleBusinessLayer\\PeopleBusinessLayer.cs",
+              "RelativeDocumentMoniker": "PeopleBusinessLayer\\PeopleBusinessLayer.cs",
+              "ToolTip": "C:\\my file\\gethub projects file\\project1 course 19\\PeopleBusinessLayer\\PeopleBusinessLayer.cs",
+              "RelativeToolTip": "PeopleBusinessLayer\\PeopleBusinessLayer.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAswIkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T16:39:52.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AddNewPersonMenu.cs",
               "DocumentMoniker": "C:\\my file\\gethub projects file\\project1 course 19\\AddNewPersonMenu.cs",
               "RelativeDocumentMoniker": "AddNewPersonMenu.cs",
               "ToolTip": "C:\\my file\\gethub projects file\\project1 course 19\\AddNewPersonMenu.cs",
               "RelativeToolTip": "AddNewPersonMenu.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAcwGoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAwKwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T08:33:16.957Z"
+              "WhenOpened": "2026-09-27T08:33:16.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -70,13 +70,7 @@ namespace project1_course_19
         }
         private void AddNewPersonMenu_Load(object sender, EventArgs e)
         {
-            DataTable dtCountries = clsCountry.GetAllCountries();
-
-            // 2. ربط البيانات بالـ ComboBox في طبقة الواجهة (UI)
-            cbCountry.DataSource = dtCountries;
-            cbCountry.DisplayMember = "CountryName"; // اسم العمود في الجدول
-            cbCountry.ValueMember = "CountryID";     // اسم عمود الـ ID في الجدول
-
+            
             _LoadData();
         }
 
@@ -87,7 +81,78 @@ namespace project1_course_19
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            int countryID = Convert.ToInt32(cbCountry.SelectedValue);
+            //message to obligate the user to enter a value in the textbox
+
+            if (string.IsNullOrWhiteSpace(textBoxFirstName.Text))
+            {
+                errorProvider1.SetError(textBoxFirstName, "Invaild");
+                textBoxFirstName.Focus();
+                return; // يمنع إكمال الحفظ إذا كان فارغاً
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxFirstName, "");
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxSecondName.Text))
+            {
+                errorProvider1.SetError(textBoxSecondName, "Invaild");
+                textBoxSecondName.Focus();
+                return; // يمنع إكمال الحفظ إذا كان فارغاً
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxSecondName, "");
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxLastName.Text))
+            {
+                errorProvider1.SetError(textBoxLastName, "Invaild");
+                textBoxthirdName.Focus();
+                return; // يمنع إكمال الحفظ إذا كان فارغاً
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxLastName, "");
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxNationalNo.Text))
+            {
+                errorProvider1.SetError(textBoxNationalNo, "Invaild");
+                textBoxNationalNo.Focus();
+                return; // يمنع إكمال الحفظ إذا كان فارغاً
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxNationalNo, "");
+            }
+
+            if (string.IsNullOrWhiteSpace(txtboxPhone.Text))
+            {
+                errorProvider1.SetError(txtboxPhone, "Invaild");
+                txtboxPhone.Focus();
+                return; // يمنع إكمال الحفظ إذا كان فارغاً
+            }
+            else
+            {
+                errorProvider1.SetError(txtboxPhone, "");
+            }
+
+            if (string.IsNullOrWhiteSpace(txtboxEmail.Text))
+            {
+                errorProvider1.SetError(txtboxEmail, "Invaild");
+                txtboxEmail.Focus();
+                return; // يمنع إكمال الحفظ إذا كان فارغاً
+            }
+            else
+            {
+                errorProvider1.SetError(txtboxEmail, "");
+            }
+
+
+
+
+            int NationalityCountryID = Convert.ToInt32(cbCountry.SelectedValue);
 
             _People.FirstName = textBoxFirstName.Text;
             _People.SecondName = textBoxSecondName.Text;
@@ -98,11 +163,12 @@ namespace project1_course_19
             _People.Address = textBoxAddress.Text;
             _People.NationalNo = textBoxNationalNo.Text;
             _People.DateOfBirth = BirthBox.Value;
-            _People.CountryID = countryID;
+            _People.NationalityCountryID = NationalityCountryID;
 
             if (pictureBox1.ImageLocation != null) { _People.ImagePath = pictureBox1.ImageLocation; }
             else
                 _People.ImagePath = "";
+
 
             if (_People.Save())
                 MessageBox.Show("Data  Saved Successfully");

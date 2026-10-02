@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.AddNewTitletxt = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lblPersonID = new System.Windows.Forms.Label();
@@ -61,9 +62,11 @@
             this.lblLastName = new System.Windows.Forms.Label();
             this.textBoxthirdName = new System.Windows.Forms.TextBox();
             this.lblThirdName = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBoxGendor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // AddNewTitletxt
@@ -171,7 +174,7 @@
             this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(165, 24);
-            this.textBoxFirstName.TabIndex = 9;
+            this.textBoxFirstName.TabIndex = 0;
             // 
             // textBoxLastName
             // 
@@ -179,7 +182,7 @@
             this.textBoxLastName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(165, 24);
-            this.textBoxLastName.TabIndex = 10;
+            this.textBoxLastName.TabIndex = 3;
             // 
             // textBoxSecondName
             // 
@@ -187,7 +190,7 @@
             this.textBoxSecondName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSecondName.Name = "textBoxSecondName";
             this.textBoxSecondName.Size = new System.Drawing.Size(165, 24);
-            this.textBoxSecondName.TabIndex = 11;
+            this.textBoxSecondName.TabIndex = 1;
             // 
             // textBoxNationalNo
             // 
@@ -195,7 +198,7 @@
             this.textBoxNationalNo.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNationalNo.Name = "textBoxNationalNo";
             this.textBoxNationalNo.Size = new System.Drawing.Size(165, 24);
-            this.textBoxNationalNo.TabIndex = 12;
+            this.textBoxNationalNo.TabIndex = 4;
             // 
             // txtboxEmail
             // 
@@ -203,7 +206,7 @@
             this.txtboxEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtboxEmail.Name = "txtboxEmail";
             this.txtboxEmail.Size = new System.Drawing.Size(165, 24);
-            this.txtboxEmail.TabIndex = 13;
+            this.txtboxEmail.TabIndex = 9;
             // 
             // lblDateOfBirth
             // 
@@ -244,7 +247,7 @@
             this.BirthBox.Margin = new System.Windows.Forms.Padding(4);
             this.BirthBox.Name = "BirthBox";
             this.BirthBox.Size = new System.Drawing.Size(165, 24);
-            this.BirthBox.TabIndex = 17;
+            this.BirthBox.TabIndex = 5;
             // 
             // txtboxPhone
             // 
@@ -252,7 +255,7 @@
             this.txtboxPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtboxPhone.Name = "txtboxPhone";
             this.txtboxPhone.Size = new System.Drawing.Size(165, 24);
-            this.txtboxPhone.TabIndex = 18;
+            this.txtboxPhone.TabIndex = 6;
             // 
             // textBoxAddress
             // 
@@ -261,7 +264,7 @@
             this.textBoxAddress.Multiline = true;
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(339, 73);
-            this.textBoxAddress.TabIndex = 19;
+            this.textBoxAddress.TabIndex = 10;
             // 
             // groupBoxGendor
             // 
@@ -272,7 +275,7 @@
             this.groupBoxGendor.Name = "groupBoxGendor";
             this.groupBoxGendor.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxGendor.Size = new System.Drawing.Size(166, 28);
-            this.groupBoxGendor.TabIndex = 20;
+            this.groupBoxGendor.TabIndex = 8;
             this.groupBoxGendor.TabStop = false;
             // 
             // rbMale
@@ -306,7 +309,7 @@
             this.cbCountry.Margin = new System.Windows.Forms.Padding(4);
             this.cbCountry.Name = "cbCountry";
             this.cbCountry.Size = new System.Drawing.Size(160, 24);
-            this.cbCountry.TabIndex = 21;
+            this.cbCountry.TabIndex = 7;
             // 
             // pictureBox1
             // 
@@ -334,7 +337,7 @@
             this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 39);
-            this.btnSave.TabIndex = 24;
+            this.btnSave.TabIndex = 11;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -345,7 +348,7 @@
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(105, 39);
-            this.btnClose.TabIndex = 25;
+            this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             // 
@@ -388,7 +391,7 @@
             this.textBoxthirdName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxthirdName.Name = "textBoxthirdName";
             this.textBoxthirdName.Size = new System.Drawing.Size(165, 24);
-            this.textBoxthirdName.TabIndex = 29;
+            this.textBoxthirdName.TabIndex = 2;
             // 
             // lblThirdName
             // 
@@ -400,6 +403,10 @@
             this.lblThirdName.Size = new System.Drawing.Size(84, 17);
             this.lblThirdName.TabIndex = 30;
             this.lblThirdName.Text = "ThirdName";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // AddNewPersonMenu
             // 
@@ -439,12 +446,13 @@
             this.Controls.Add(this.AddNewTitletxt);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddNewPersonMenu";
-            this.Text = "Add New Person Menu";
+            this.Text = "1";
             this.Load += new System.EventHandler(this.AddNewPersonMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBoxGendor.ResumeLayout(false);
             this.groupBoxGendor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -485,5 +493,6 @@
         private System.Windows.Forms.Label lblLastName;
         private System.Windows.Forms.TextBox textBoxthirdName;
         private System.Windows.Forms.Label lblThirdName;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

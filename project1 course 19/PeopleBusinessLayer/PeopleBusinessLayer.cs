@@ -26,7 +26,7 @@ namespace PeopleBusinessLayer
 
         public string ImagePath { set; get; }
 
-        public int CountryID { set; get; }
+        public int NationalityCountryID { set; get; }
 
         public clsPeopleBusinessLayer()
 
@@ -41,7 +41,7 @@ namespace PeopleBusinessLayer
             this.Phone = "";
             this.Address = "";
             this.DateOfBirth = DateTime.Now;
-            this.CountryID = -1;
+            this.NationalityCountryID = -1;
             this.ImagePath = "";
 
             Mode = enMode.AddNew;
@@ -49,7 +49,7 @@ namespace PeopleBusinessLayer
         }
 
         private clsPeopleBusinessLayer(int ID, string FirstName, string SecondName, string ThirdName, string LastName,
-     string Email, string Phone, string NationalNo, string Address, DateTime DateOfBirth, int CountryID, string ImagePath)
+     string Email, string Phone, string NationalNo, string Address, DateTime DateOfBirth, int NationalityCountryID, string ImagePath)
         {
             this.ID = ID;
             this.FirstName = FirstName;
@@ -61,7 +61,7 @@ namespace PeopleBusinessLayer
             this.Phone = Phone;
             this.Address = Address;
             this.DateOfBirth = DateOfBirth;
-            this.CountryID = CountryID;
+            this.NationalityCountryID = NationalityCountryID;
             this.ImagePath = ImagePath;
 
             Mode = enMode.Update;
@@ -72,7 +72,7 @@ namespace PeopleBusinessLayer
             //call DataAccess Layer 
 
             this.ID = PeopleDataAccess.AddNewPerosn(this.FirstName, this.SecondName, this.ThirdName, this.LastName, this.Email, this.Phone,
-                this.NationalNo, this.Address, this.DateOfBirth, this.CountryID, this.ImagePath);
+                this.NationalNo, this.Address, this.DateOfBirth, this.NationalityCountryID, this.ImagePath);
 
             return (this.ID != -1);
         }
@@ -82,7 +82,7 @@ namespace PeopleBusinessLayer
             //call DataAccess Layer 
 
             return PeopleDataAccess.UpdatePerson(this.ID, this.FirstName, this.SecondName, this.ThirdName, this.LastName, this.Email, this.Phone,
-                this.NationalNo, this.Address, this.DateOfBirth, this.CountryID, this.ImagePath);
+                this.NationalNo, this.Address, this.DateOfBirth, this.NationalityCountryID, this.ImagePath);
 
         }
         public static DataTable GetAllCountries()
@@ -128,9 +128,9 @@ namespace PeopleBusinessLayer
                         return false;
                     }
 
-                case enMode.Update:
+                //case enMode.Update:
 
-                    return _UpdatePerson();
+                //    return _UpdatePerson();
 
             }
             return false;

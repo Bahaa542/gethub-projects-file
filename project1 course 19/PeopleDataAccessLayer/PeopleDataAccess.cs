@@ -132,7 +132,7 @@ namespace PeopleDataAccessLayer
 
         public static bool GetPersonInfoByID(int ID, ref string FirstName,ref string ThirdName,ref string secondName, ref string LastName,
            ref string Email, ref string Phone,ref string NationalNo, ref string Address,
-           ref DateTime DateOfBirth, ref int CountryID, ref string ImagePath)
+           ref DateTime DateOfBirth, ref int NationalityCountryID, ref string ImagePath)
         {
             bool isFound = false;
 
@@ -162,7 +162,7 @@ namespace PeopleDataAccessLayer
                     NationalNo = (string)reader["NationalNo"];
                     Address = (string)reader["Address"];
                     DateOfBirth = (DateTime)reader["DateOfBirth"];
-                    CountryID = (int)reader["CountryID"];
+                    NationalityCountryID = (int)reader["NationalityCountryID"];
 
                     //ImagePath: allows null in database so we should handle null
                     if (reader["ImagePath"] != DBNull.Value)
@@ -200,29 +200,29 @@ namespace PeopleDataAccessLayer
 
         public static int AddNewPerosn(string FirstName,string SecondName,string ThirdName, string LastName,
             string Email, string Phone,string NationalNo, string Address,
-            DateTime DateOfBirth, int CountryID, string ImagePath)
+            DateTime DateOfBirth, int NationalityCountryID, string ImagePath)
         {
             //this function will return the new contact id if succeeded and -1 if not.
             int PersonID = -1;
 
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
 
-            string query = @"INSERT INTO People (FirstName,SecondName,ThirdName, LastName, Email, Phone,NationalNo, Address,DateOfBirth, CountryID,ImagePath)
-                             VALUES (@FirstName,@SecondName,ThirdName, @LastName, @Email, @Phone,@NationalNo, @Address,@DateOfBirth, @CountryID,@ImagePath);
+            string query = @"INSERT INTO People (FirstName,SecondName,ThirdName, LastName, Email, Phone,NationalNo, Address,DateOfBirth, NationalityCountryID,ImagePath)
+                             VALUES (@FirstName,@SecondName,@ThirdName, @LastName, @Email, @Phone,@NationalNo, @Address,@DateOfBirth, @NationalityCountryID,@ImagePath);
                              SELECT SCOPE_IDENTITY();";
 
             SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue("@FirstName", FirstName);
             command.Parameters.AddWithValue("@SecondName", SecondName);
-            command.Parameters.AddWithValue("@ThirdName", ThirdName);
+           
             command.Parameters.AddWithValue("@LastName", LastName);
             command.Parameters.AddWithValue("@Email", Email);
             command.Parameters.AddWithValue("@Phone", Phone);
             command.Parameters.AddWithValue("@NationalNo", NationalNo);
             command.Parameters.AddWithValue("@Address", Address);
             command.Parameters.AddWithValue("@DateOfBirth", DateOfBirth);
-            command.Parameters.AddWithValue("@CountryID", CountryID);
+            command.Parameters.AddWithValue("@NationalityCountryID", NationalityCountryID);
 
             if (ImagePath != "")
                 command.Parameters.AddWithValue("@ImagePath", ImagePath);
@@ -249,7 +249,7 @@ namespace PeopleDataAccessLayer
 
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                System.Diagnostics.Debug.WriteLine("Error: " + ex.Message);
 
             }
 
@@ -263,7 +263,7 @@ namespace PeopleDataAccessLayer
         }
         public static bool UpdatePerson(int ID,string FirstName, string SecondName, string ThirdName, string LastName,
             string Email, string Phone, string NationalNo, string Address,
-            DateTime DateOfBirth, int CountryID, string ImagePath)
+            DateTime DateOfBirth, int NationalityCountryID, string ImagePath)
         {
 
             int rowsAffected = 0;
@@ -279,7 +279,7 @@ namespace PeopleDataAccessLayer
                                 NationalNo = @NationalNo, 
                                 Address = @Address, 
                                 DateOfBirth = @DateOfBirth,
-                                CountryID = @CountryID,
+                                NationalityCountryID = @NationalityCountryID,
                                 ImagePath =@ImagePath
                                 where PersonID = @PersonID";
 
@@ -295,7 +295,7 @@ namespace PeopleDataAccessLayer
             command.Parameters.AddWithValue("@NationalNo", NationalNo);
             command.Parameters.AddWithValue("@Address", Address);
             command.Parameters.AddWithValue("@DateOfBirth", DateOfBirth);
-            command.Parameters.AddWithValue("@CountryID", CountryID);
+            command.Parameters.AddWithValue("@NationalityCountryID", NationalityCountryID);
 
             if (ImagePath != "")
                 command.Parameters.AddWithValue("@ImagePath", ImagePath);

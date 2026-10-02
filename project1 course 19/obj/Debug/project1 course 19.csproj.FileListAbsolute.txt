@@ -37,3 +37,4 @@ C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.
 C:\my file\gethub projects file\project1 course 19\obj\Debug\project1.0785ABB3.Up2Date
 C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.exe
 C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.pdb
+C:\my file\gethub projects file\project1 course 19\obj\Debug\project1 course 19.exe.config
